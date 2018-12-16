@@ -1,12 +1,12 @@
-package com.alibaba.dubbo.demo.provider;
+package com.heqingbao.dubbo.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MainProvider {
+public class MainConsumer {
 
     public static void main(String[] args) {
-        SpringApplication.run(MainProvider.class, args);
+        SpringApplication.run(MainConsumer.class, args);
     }
 }
